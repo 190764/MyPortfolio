@@ -389,12 +389,12 @@ text-decoration: none;
 
 .project-number-left{
   left:-40px;
-  top:-45px;
+  top:-70px;
 }
 
 .project-number-right{
   right:-40px;
-  top:-45px;
+  top:-70px;
 }
 
 .project-content{
@@ -435,7 +435,7 @@ text-decoration: none;
   line-height:3rem;
 }
 
-.project-subHeading{
+.project-sub-heading{
   width:60%;
   font-size:15px;
   font-style: italic;
