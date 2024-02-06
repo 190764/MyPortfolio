@@ -32,7 +32,7 @@
 }
 
 .logo{
-  width: 50px;
+  width: 40px;
 }
 
 .logo-container{
@@ -42,7 +42,7 @@
 }
 
 .logo-text{
-  margin-left:-1px;
+  margin-left:1.5px;
   font-size: 20px;
 }
 
@@ -617,7 +617,7 @@ text-decoration: none;
   transform: scale(1.1);
   transition: .35s;
 }
-#submit-btn{
+/* #submit-btn{
   border:none;
   font-size: 1.4rem;
   margin: 1rem 0;
@@ -632,7 +632,24 @@ text-decoration: none;
 .submit-icon{
   padding:0 1rem;
   font-size:1.5rem;
+} */
+#submit-btn {
+  border: none;
+  font-size: 1.4rem;
+  margin: 1rem 0;
 }
+
+#submit-btn:hover {
+  transform: scale(0.8);
+  transition: 1s ;
+  transition-timing-function:linear;
+}
+
+.submit-icon {
+  padding: 0 1rem;
+  font-size: 1.5rem;
+}
+
 
 footer{
   position:relative;
@@ -656,6 +673,12 @@ footer{
   color:#535c87;
   user-select:none;
   font-size:5em;
+}
+.footer-faded-text:hover{
+  color:black;
+  user-select:none;
+  transition: .6s;
+  
 }
 
 .link-wrapper{
