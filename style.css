@@ -577,6 +577,11 @@ text-decoration: none;
   color:var(--bgOrange);
   padding-top: 2rem;
 }
+.contactus-heading:hover{
+  color: #343d68;
+  transition: .6s;
+  transform: scale(1.1)
+}
 .contactus-sub-heading{
   font-size:2.5rem;
   color:#343d68aa;
